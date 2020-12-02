@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		341EA51C219F01D6000D8B01 /* Lecture12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lecture12; sourceTree = BUILT_PRODUCTS_DIR; };
+		341EA51C219F01D6000D8B01 /* Lecture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lecture; sourceTree = BUILT_PRODUCTS_DIR; };
 		341EA51F219F01D6000D8B01 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		341EA513219F01D6000D8B01 = {
 			isa = PBXGroup;
 			children = (
-				341EA51E219F01D6000D8B01 /* Lecture11 */,
+				341EA51E219F01D6000D8B01 /* Lecture */,
 				341EA51D219F01D6000D8B01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		341EA51D219F01D6000D8B01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				341EA51C219F01D6000D8B01 /* Lecture12 */,
+				341EA51C219F01D6000D8B01 /* Lecture */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		341EA51E219F01D6000D8B01 /* Lecture11 */ = {
+		341EA51E219F01D6000D8B01 /* Lecture */ = {
 			isa = PBXGroup;
 			children = (
 				341EA51F219F01D6000D8B01 /* main.swift */,
 			);
-			path = Lecture11;
+			path = Lecture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		341EA51B219F01D6000D8B01 /* Lecture12 */ = {
+		341EA51B219F01D6000D8B01 /* Lecture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 341EA523219F01D6000D8B01 /* Build configuration list for PBXNativeTarget "Lecture12" */;
+			buildConfigurationList = 341EA523219F01D6000D8B01 /* Build configuration list for PBXNativeTarget "Lecture" */;
 			buildPhases = (
 				341EA518219F01D6000D8B01 /* Sources */,
 				341EA519219F01D6000D8B01 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = Lecture12;
-			productName = Lecture12;
-			productReference = 341EA51C219F01D6000D8B01 /* Lecture12 */;
+			name = Lecture;
+			productName = Lecture;
+			productReference = 341EA51C219F01D6000D8B01 /* Lecture */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -89,7 +89,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Michael Gale";
 				TargetAttributes = {
 					341EA51B219F01D6000D8B01 = {
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 341EA517219F01D6000D8B01 /* Build configuration list for PBXProject "Lecture11" */;
+			buildConfigurationList = 341EA517219F01D6000D8B01 /* Build configuration list for PBXProject "Lecture" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				341EA51B219F01D6000D8B01 /* Lecture12 */,
+				341EA51B219F01D6000D8B01 /* Lecture */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +154,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -215,6 +216,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -266,7 +268,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		341EA517219F01D6000D8B01 /* Build configuration list for PBXProject "Lecture11" */ = {
+		341EA517219F01D6000D8B01 /* Build configuration list for PBXProject "Lecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				341EA521219F01D6000D8B01 /* Debug */,
@@ -275,7 +277,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		341EA523219F01D6000D8B01 /* Build configuration list for PBXNativeTarget "Lecture12" */ = {
+		341EA523219F01D6000D8B01 /* Build configuration list for PBXNativeTarget "Lecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				341EA524219F01D6000D8B01 /* Debug */,

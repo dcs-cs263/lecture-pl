@@ -1,6 +1,6 @@
 using System;
 
-public class Lecture11
+public class Lecture
 {
     public static int Main(String[] args)
     {

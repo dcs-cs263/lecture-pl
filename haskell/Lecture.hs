@@ -1,4 +1,4 @@
-module Lecture11 where
+module Lecture where
 
 import Prelude hiding (Maybe(..))
 

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Lecture11 {
+public class Lecture {
     public static void main(String[] args) {
         Optional<Integer> num = Optional.empty();
 
